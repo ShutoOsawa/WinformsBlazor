@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsBlazor", "WinFormsBlazor\WinFormsBlazor.csproj", "{583C1F4C-0B94-451A-B788-39F71A9DD7DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraForm", "ExtraForm\ExtraForm.csproj", "{C231FB02-D086-49E8-8B86-FAEEBA587B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{583C1F4C-0B94-451A-B788-39F71A9DD7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583C1F4C-0B94-451A-B788-39F71A9DD7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583C1F4C-0B94-451A-B788-39F71A9DD7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C231FB02-D086-49E8-8B86-FAEEBA587B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C231FB02-D086-49E8-8B86-FAEEBA587B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C231FB02-D086-49E8-8B86-FAEEBA587B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C231FB02-D086-49E8-8B86-FAEEBA587B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
