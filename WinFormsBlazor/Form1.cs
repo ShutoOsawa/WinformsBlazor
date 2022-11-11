@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Components.WebView.WindowsForms;
-
+using WinFormsBlazor.Shared;
 
 namespace WinFormsBlazor
 {
@@ -9,11 +9,12 @@ namespace WinFormsBlazor
         public Form1()
         {
             InitializeComponent();
+            //this.FormBorderStyle = FormBorderStyle.None;
             var services = new ServiceCollection();
             services.AddWindowsFormsBlazorWebView();
             blazorWebView1.HostPage = "wwwroot\\index.html";
             blazorWebView1.Services = services.BuildServiceProvider();
-            blazorWebView1.RootComponents.Add<Counter>("#app");
+            blazorWebView1.RootComponents.Add<MainLayout>("#app");
         }
     }
 }
