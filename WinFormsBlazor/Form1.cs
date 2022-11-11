@@ -12,9 +12,10 @@ namespace WinFormsBlazor
             //this.FormBorderStyle = FormBorderStyle.None;
             var services = new ServiceCollection();
             services.AddWindowsFormsBlazorWebView();
+            services.AddAntDesign();
             blazorWebView1.HostPage = "wwwroot\\index.html";
             blazorWebView1.Services = services.BuildServiceProvider();
-            blazorWebView1.RootComponents.Add<MainLayout>("#app");
+            blazorWebView1.RootComponents.Add<Main>("#app");
         }
     }
 }
